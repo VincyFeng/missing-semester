@@ -19,7 +19,7 @@
 3. `cd 目录`，进入指定目录；`cd ..`，返回上级目录；`cd ~`，返回home目录
 4. `mkdir 创建目录`，参数-p补全父目录，例如：`mkdir -p ~/linux_demo`
 5. touch 创建空文件/更新时间，例如：`touch hello.txt`
-6. cd 复制文件，例如：`cp hello.txt hello-copy.txt`
+6. cp 复制文件，例如：`cp hello.txt hello-copy.txt`
 7. mv 移动或重命名，例如：`mv hello-copy.txt backup.txt`
 8. rm 删除文件，例如：`rm backup.txt`
 9. cat/less 查看文件内容/分页查看文件内容，例如：`cat hello.txt` ，`less hello.txt`
